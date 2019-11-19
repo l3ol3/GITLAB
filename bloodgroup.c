@@ -5,11 +5,19 @@ void main()
   int i;
   do
   {
+<<<<<<< HEAD
     printf("Whattttttttttt is your Name? ");
     scanf("%s", Name);
     do
     {
       printf("What is your bloodddddddddddd group [A, B, AB, or O]? ");
+=======
+    printf("What is your FullName? ");
+    scanf("%s", Name);
+    do
+    {
+      printf("What is your blood Type [A, B, AB, or O]? ");
+>>>>>>> 4140f13034b15dffb840416659a4c69d35f8a20e
       scanf("%s", G);
 
       if (strcmp(G, "A") !=0  &&
